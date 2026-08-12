@@ -1,0 +1,98 @@
+{
+  "account": {
+    "email": "zypeng172@gmail.com",
+    "planType": "plus",
+    "requiresOpenaiAuth": true,
+    "type": "chatgpt"
+  },
+  "appServer": {
+    "bytesReceived": 32852,
+    "bytesSent": 620,
+    "pid": 34984,
+    "requests": 6,
+    "responses": 6,
+    "uptimeMs": 2650
+  },
+  "errors": {},
+  "model": {
+    "availableCount": 6,
+    "current": "gpt-5.5",
+    "defaultModel": "gpt-5.6-sol",
+    "description": "Frontier model for complex coding, research, and real-world work.",
+    "displayName": "GPT-5.5",
+    "reasoningEffort": "medium",
+    "serviceTier": null
+  },
+  "ok": true,
+  "quota": {
+    "creditsBalance": "0",
+    "creditsUnlimited": false,
+    "hasCredits": false,
+    "limitId": "codex",
+    "limitName": null,
+    "rateLimitReachedType": null,
+    "remainingPercent": 97,
+    "resetCreditsAvailable": 1,
+    "resetsAt": 1787015075,
+    "resetsInSeconds": 509646,
+    "spendControlReached": false,
+    "usedPercent": 3,
+    "windowDurationMins": 10080
+  },
+  "source": [
+    "codexcli",
+    "vscode"
+  ],
+  "usage": {
+    "currentStreakDays": 2,
+    "lifetimeTokens": 204387815,
+    "longestRunningTurnSec": 3248,
+    "longestStreakDays": 5,
+    "peakDailyTokens": 51152353
+  },
+  "weatherInfo": {
+    "error": null,
+    "location": {
+      "city": "Shenzhen",
+      "country": "China",
+      "displayName": "Shenzhen，Guangdong，China",
+      "ip": "14.155.117.85",
+      "latitude": 22.5455,
+      "longitude": 114.0683,
+      "region": "Guangdong",
+      "timezone": "Asia/Shanghai"
+    },
+    "ok": true,
+    "realIp": {
+      "error": null,
+      "location": {
+        "city": "Shenzhen",
+        "country": "China",
+        "displayName": "Shenzhen，Guangdong，China",
+        "ip": "14.155.117.85",
+        "latitude": 22.5455,
+        "longitude": 114.0683,
+        "region": "Guangdong",
+        "timezone": "Asia/Shanghai"
+      },
+      "ok": true
+    },
+    "virtualIp": {
+      "error": "网络请求失败: HTTP Error 502: Bad Gateway",
+      "location": null,
+      "ok": false,
+      "sameAsReal": false
+    },
+    "weather": {
+      "apparentTemperature": 40.4,
+      "description": "小毛毛雨",
+      "humidity": 53,
+      "precipitation": 0.1,
+      "temperature": 34.4,
+      "time": "2026-08-12T11:30",
+      "weatherCode": 51,
+      "windSpeed": 11.8
+    },
+    "weatherLocationKind": "realIp"
+  }
+}
